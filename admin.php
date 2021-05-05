@@ -1,7 +1,4 @@
-<?php
-session_start();
-
-?>
+  
 <html>
 <head>
 <title></title>
@@ -17,17 +14,19 @@ session_start();
       <input type="text" placeholder="Enter Username" name="name"><br>
 
       <label for="email">Email address:</label>
-      <input type="email" class="form-control" placeholder="Enter email" id="email"><br>
+      <input type="email" class="form-control" placeholder="Enter email" name="email"><br>
   
       <label for="password">Password:</label>
-      <input type="password" class="form-control" placeholder="Enter password" id="pwd" >
+      <input type="password" class="form-control" placeholder="Enter password" name="pass" >
   <div class="form-check">
     
     <label class="form-check-label">
       <input class="form-check-input" type="checkbox"> Remember me
     </label>
+
+    <input type="submit" name="submit"  class="btn btn-primary" style="width: 250px;">
   </div>&nbsp;&nbsp;
- <button class="btn btn-primary" type="submit" style="width: 250px;">submit</button>
+ 
 </form>
 <br>
 

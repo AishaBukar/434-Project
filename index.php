@@ -4,15 +4,17 @@
 	<title>Portal</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
-<body>
+<body class="b">
+	
+		
   <div class="login-page" >
   	<div class="form">
-	
+			
 	<form id="form2">
-		<a href="studentpage.php"><h4>Login as a student</h4><br><hr></a>
-	    <a href="examinerpage.php"><h4>Login as an examiner</h4><br><hr></a>
-	    <a href="admin.php"><h4>Login as an admin</h4><br><hr></a>
-		
+		<a href="studentpage.php"><h4>Login as a student</h4></a>
+	    <a href="examinerpage.php"><h4>Login as an examiner</h4></a>
+	    <a href="admin.php"><h4>Login as an admin</h4></a>
+
 		<table>
 			<tr>
 				<td><label>Username:</label></td>

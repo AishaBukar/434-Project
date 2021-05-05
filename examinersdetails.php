@@ -5,7 +5,7 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-	<form method="POST" action="exdb.php" id="form1">
+	<form method="POST" action="exinsert.php" id="form1">
 		<table>
 			<tr>
 				<td>Name:</td>
@@ -26,7 +26,7 @@
 			</tr>
 			<tr>
 				<td>Password:</td>
-				<td><input type="password" name="password"></td>
+				<td><input type="password" name="pass"></td>
 			</tr>
 			<tr>
 				<td><input type="submit" name="submit" value="Register"></td>
@@ -34,6 +34,5 @@
 		</table>
 		
 	</form>
-
 </body>
 </html>

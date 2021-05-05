@@ -1,28 +1,33 @@
-/*body{
-	background-image: linear-gradient(rgba(0,0,0,0.6));
-	height: 100vh;
-	background-size: cover;
-	background-position: center;
-}*/
+body{
+ background-image:linear-gradient(rgba(0,0,0,0.6)),url(img/gettyimages-157157486-612x612.jpg);
+ height:100vh;
+ background-size:cover;
+ background-position:center ;
+}
 .login-page{
 	width: 360px;
 	padding: 10% 0 0;
 	margin: auto;
 
 }
+
+.b{
+  background-image: url(img/gettyimages-157157486-612x612.jpg);
+
+}
 .form{
 	position: relative;
 	z-index: 1;
-	background: silver;
+	background: rgba(7,40,195,0.8);
 	max-width: 360px;
 	margin: 0 auto 100px;
 	padding: 45px;
 	text-align: center;
-	border: 2px solid grey;
+	/*border: 2px solid grey;*/
 }
 
 #form2{
-	padding: 20px;
+	padding: 5px;
 	margin: 0 auto;
 }
 .form-control{
@@ -37,13 +42,14 @@ a{
 input[type="text"], input[type="password"]{
 	width: 100%;
 	height: 20px;
-	border: 1px solid black;
+	border: 0;
 	background: #f2f2f2;
 	font-family: 'Roboto', sans-serif;
 	outline: 1;
 	padding: 15px;
 	font-size: 14px;
 	box-sizing: border-box;
+
 }
 input[type='submit']{
 	font-family: 'Roboto',sans-serif;
@@ -144,8 +150,9 @@ hr {
   }
 }
 
-#form1{
-	
+textarea{
+	width: 200px;
+	height: 100px;
 
 
 }
